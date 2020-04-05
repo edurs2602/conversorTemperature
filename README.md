@@ -14,6 +14,3 @@
 
 ## The host is:
 [Netlify](https://www.netlify.com/)
-
-## License
-MIT [LICENSE](LICENSE.md)
