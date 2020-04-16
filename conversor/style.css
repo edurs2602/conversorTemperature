@@ -1,8 +1,6 @@
 body{
-    background: rgb(218, 218, 218);
-    color: rgb(36, 36, 36);
-
-    text-align: center;
+    background: rgb(36, 36, 36);
+    color: rgb(218, 218, 218);
 
     margin: 0;
    
@@ -13,16 +11,22 @@ body{
     width: 80%;
     max-width: 980px;
 
+    text-align: center;
+
     margin: 30px auto;
 }
 
 input{
     width: 170px;
     height: 120px;
+    background: rgb(36, 36, 36);
+    color: rgb(218, 218, 218);
 
     font-size: 80px;
 
     text-align: center;
+
+    margin-top: 50px;
 
     border-radius: 80px;
 }
@@ -31,8 +35,8 @@ button{
     width: 150px;
     height: 40px;
 
-    background: white;
-    color: rgb(0, 0, 0);
+    background: rgb(36, 36, 36);
+    color: rgb(218, 218, 218);
 
     border-radius: 8px;
 
@@ -56,10 +60,20 @@ button:hover{
     text-decoration: underline;
 }
 
+a{
+    color: goldenrod;
+}
+
 #divIDF{
     font-size: 70px;
 }
 
 #divIDK{
     font-size: 70px;
+
+    margin-bottom: 300px;
+}
+
+#darkModeButton{
+    justify-content: flex-end;
 }

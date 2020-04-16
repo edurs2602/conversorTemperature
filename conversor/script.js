@@ -1,6 +1,6 @@
 var listElement = document.querySelector('#container ul')
 var getInput = document.querySelector('#container input')
-var buttonElement = document.querySelector('#container button')
+var buttonElement = document.getElementById('divButton')
 
 function converter(){
     var cel = getInput.value;
